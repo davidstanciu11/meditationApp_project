@@ -1,8 +1,8 @@
 
 
 
-function NabarMob() {
+function NavbarMob() {
     return
 }
 
-export default NabarMob;
+export default NavbarMob;
