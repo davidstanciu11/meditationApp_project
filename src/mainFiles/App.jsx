@@ -1,4 +1,4 @@
-// import Cards from "../components/Cards";
+import Cards from "../components/Cards";
 // import Contact from "../components/Contact";
 // import Courses from "../components/Courses";
 // import Facts from "../components/Facts";
@@ -17,6 +17,7 @@ function App() {
       {" "}
       <div className="overflow_hidden">
         <Hero />
+        <Cards />
         <div className="h-[2000px]"></div>
       </div>
     </>

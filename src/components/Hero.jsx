@@ -13,7 +13,7 @@ function Hero() {
               <h1 className="h1 mb-3 lg:mb-[22px]">
                 Find Your Inner Peace <br /> Anytime, Anywhere.
               </h1>
-              <p className="mb-12 lg:mb-6 max-w-[480px] lg:text-sm">
+              <p className="mb-12 lg:mb-6 max-w-[480px] lg:text-[14px] font-medium">
                 Meditation is a transformative practice that calms the mind,
                 cultivates self-awareness, and promotes inner harmony, leading
                 to enhanced focus, reduced stress, and an overall sense of
