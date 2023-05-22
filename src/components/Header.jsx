@@ -5,6 +5,12 @@ import Logo from "../assets/lotus_logo.png";
 
 function Header() {
   const [header, setHeader] = useState(false);
+
+  useEffect(() => {
+    window.addEventListener("scroll", () => {
+      window.scrollY > 36 ? setHeader(true) : setHeader(false);
+    });
+  });
   return (
     <>
       <header
@@ -16,8 +22,8 @@ function Header() {
       >
         <div className="flex items-center">
           <a href="#" className="flex items-center">
-            <img src={Logo} alt="logo"/>
-            <h2 className="text-xl mt-2 ml-1">EasyMind.</h2>
+            <img src={Logo} alt="logo" className="mb-2" />
+            <h2 className="text-xl ml-1">EasyMind.</h2>
           </a>
           <div className="hidden lg:flex">
             <Navbar />
@@ -25,14 +31,18 @@ function Header() {
         </div>
         <div className="flex items-center">
           <div className="flex gap-x-4 lg:gap-x-9">
-            <button className="text-heading font-medium 
-            text-sm lg:text-base hover:text-orange transition">
-              btn1
+            <button
+              className="text-heading font-medium 
+            text-sm lg:text-base hover:text-orange transition"
+            >
+              Sign In
             </button>
-            <button className="btn btn-md lg:px-[30px] bg-orange-100 
+            <button
+              className="btn btn-md lg:px-[30px] bg-orange-100 
             border border-orange text-orange font-medium text-sm 
-            lg:text-base hover:bg-orange-200 hover:text-white transition">
-              btn2
+            lg:text-base hover:bg-orange-200 hover:text-white transition"
+            >
+              Sign Up
             </button>
           </div>
           <NavbarMob />
