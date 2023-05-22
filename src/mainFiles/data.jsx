@@ -30,7 +30,7 @@ import CourseImage3 from '../assets/img/courses/course-3.png';
     endNumber: '8',
     unit: '',
     title: 'Years of Experience',
-    desc: 'We are 5 years of experienced in this yoga field. Giving the best instructions.',
+    desc: 'We have 5 years of experienced in this yoga field. Giving the best instructions.',
   },
   {
     startNumber: '1',
@@ -51,7 +51,7 @@ import CourseImage3 from '../assets/img/courses/course-3.png';
     endNumber: '24',
     unit: '',
     title: 'Monthly Classes',
-    desc: 'Yoga is a physical, mental and spritual practice discipline. We provide 24+ classes monthly.',
+    desc: 'Meditation is a physical, mental and spiritual practice discipline. We provide 24+ classes monthly.',
   },
 ];
 

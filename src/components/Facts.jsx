@@ -6,7 +6,7 @@ function Facts() {
     <>
       <section>
         <div className="container mx-auto flex flex-col lg:flex-row lg:gap-x-[30px]">
-          <div className=" flex-1 flex flex-wrap gap-x-[5%] gap-y-[35px]">
+          <div className=" flex-1 flex flex-wrap gap-x-[5%] gap-y-[35px] mb-12">
             {facts.map((item, i) => {
               const { startNumber, endNumber, unit, title, desc } = item;
               return (
