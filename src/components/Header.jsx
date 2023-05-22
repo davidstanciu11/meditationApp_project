@@ -22,8 +22,8 @@ function Header() {
       >
         <div className="flex items-center">
           <a href="#" className="flex items-center">
-            <img src={Logo} alt="logo" className="mb-2" />
-            <h2 className="text-xl ml-1">EasyMind.</h2>
+            <img src={Logo} alt="logo" className="w-8 lg:mb-1 lg:w-11" />
+            <h2 className="text-sm lg:text-xl ml-1">EasyMind.</h2>
           </a>
           <div className="hidden lg:flex">
             <Navbar />
