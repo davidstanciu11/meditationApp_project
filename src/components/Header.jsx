@@ -2,7 +2,6 @@ import { useState, useEffect } from "react";
 import Navbar from "./Navbar";
 import NavbarMob from "./NavbarMob";
 import Logo from "../assets/lotus_logo.png";
-import "./Header.style.css";
 
 function Header() {
   const [header, setHeader] = useState(false);
@@ -16,9 +15,9 @@ function Header() {
         duration-500 flex items-center justify-between`}
       >
         <div className="flex items-center">
-          <a href="#" className={"flex items-center"}>
-            <img src={Logo} alt="logo" className="logo_png" />
-            <h2 className="logo_name">EasyMind.</h2>
+          <a href="#" className="flex items-center">
+            <img src={Logo} alt="logo"/>
+            <h2 className="text-xl mt-2 ml-1">EasyMind.</h2>
           </a>
           <div className="hidden lg:flex">
             <Navbar />
@@ -31,7 +30,8 @@ function Header() {
               btn1
             </button>
             <button className="btn btn-md lg:px-[30px] bg-orange-100 
-            border border-orange text-orange font-medium text-sm lg:text-base hover:bg">
+            border border-orange text-orange font-medium text-sm 
+            lg:text-base hover:bg-orange-200 hover:text-white transition">
               btn2
             </button>
           </div>

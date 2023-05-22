@@ -1,11 +1,11 @@
 import { BsCheck, BsChevronRight } from 'react-icons/bs';
 
 // import images
-import CourseImage1 from '../src/assets/img/courses/course-1.png';
-import CourseImage2 from '../src/assets/img/courses/course-2.png';
-import CourseImage3 from '../src/assets/img/courses/course-3.png';
+import CourseImage1 from "../assets/img/courses/course-1.png";
+import CourseImage2 from '../assets/img/courses/course-2.png';
+import CourseImage3 from '../assets/img/courses/course-3.png';
 
-export const navigation = [
+  export const navigation = [
   {
     name: 'Home',
     href: '#',
@@ -24,7 +24,7 @@ export const navigation = [
   },
 ];
 
-export const facts = [
+ export const facts = [
   {
     startNumber: '1',
     endNumber: '8',
@@ -55,7 +55,7 @@ export const facts = [
   },
 ];
 
-export const courses = [
+  export const courses = [
   {
     image: CourseImage1,
     title: 'Resortive Yoga Training & Immersion',
@@ -79,13 +79,13 @@ export const courses = [
   },
 ];
 
-export const pricing = [
+  export const pricing = [
   {
     title: 'Single yoga class',
     price: '$15.',
     list: [
       {
-        icon: <BsCheck />,
+        icon: <BsCheck/>,
         name: 'Pay as you go',
       },
       {
@@ -152,3 +152,4 @@ export const pricing = [
     delay: '900',
   },
 ];
+
