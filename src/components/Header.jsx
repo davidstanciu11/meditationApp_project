@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import Navbar from "./Navbar";
 import NavbarMob from "./NavbarMob";
-import Logo from "../assets/lotus_logo.png";
+import Logo from "../assets/img/logo/lotus_logo.png";
 
 function Header() {
   const [header, setHeader] = useState(false);
