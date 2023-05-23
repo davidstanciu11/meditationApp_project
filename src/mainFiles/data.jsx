@@ -82,7 +82,7 @@ import CourseImage3 from '../assets/img/courses/course-3.png';
   export const pricing = [
   {
     title: 'Single yoga class',
-    price: '$15.',
+    price: '$15',
     list: [
       {
         icon: <BsCheck/>,
@@ -103,7 +103,7 @@ import CourseImage3 from '../assets/img/courses/course-3.png';
   },
   {
     title: 'Single yoga class',
-    price: '$60.',
+    price: '$60',
     list: [
       {
         icon: <BsCheck />,
@@ -128,7 +128,7 @@ import CourseImage3 from '../assets/img/courses/course-3.png';
   },
   {
     title: 'Single yoga class',
-    price: '$150.',
+    price: '$150',
     list: [
       {
         icon: <BsCheck />,

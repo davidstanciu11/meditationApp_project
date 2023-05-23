@@ -9,7 +9,7 @@ import Hero from "../components/Hero";
 // import Navbar from "../components/Navbar";
 // import NavbarMob from "../components/NavbarMob";
 // import Newsletter from "../components/Newsletter";
-// import Pricing from "../components/Pricing";
+import Pricing from "../components/Pricing";
 
 function App() {
   return (
@@ -21,6 +21,7 @@ function App() {
         <Facts/>
         <Features/>
         <Courses/>
+        <Pricing/>
         <div className="h-[2000px]"></div>
       </div>
     </>
