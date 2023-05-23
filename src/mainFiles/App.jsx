@@ -10,8 +10,15 @@ import Hero from "../components/Hero";
 // import NavbarMob from "../components/NavbarMob";
 import Newsletter from "../components/Newsletter";
 import Pricing from "../components/Pricing";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 function App() {
+  Aos.init({
+    duration: 1800,
+    offset:100
+  })
+
   return (
     <>
       {" "}

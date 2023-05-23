@@ -8,19 +8,19 @@ import CourseImage3 from '../assets/img/courses/course-3.png';
   export const navigation = [
   {
     name: 'Home',
-    href: '#',
+    href: '#Home',
   },
   {
     name: 'Classes',
-    href: '#',
+    href: '#Courses',
   },
   {
     name: 'Features',
-    href: '#',
+    href: '#Features',
   },
   {
     name: 'Contact',
-    href: '#',
+    href: '#Contact',
   },
 ];
 

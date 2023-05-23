@@ -9,20 +9,21 @@ function Pricing() {
       <section className="section-sm lg:section-lg bg-section">
         <div className="container mx-auto">
           <div className="text-center mb-7 lg:mb-[70px]">
-            <h2 className="h2 mb-3 lg:mb-[18px]"> Choose your Plan</h2>
-            <p className="max-w-[398px] mx-auto lg:text-base text-sm">
+            <h2 className="h2 mb-3 lg:mb-[18px]" data-aos="fade-down" data-aos-delay="200"> Choose your Plan</h2>
+            <p className="max-w-[398px] mx-auto lg:text-base text-sm" data-aos="fade-down" data-aos-delay="200">
               Select the one that fits your needs and start your journey with
               us.
             </p>
           </div>
-          <div className="flex flex-col mx-auto items-center gap-y-5 lg:flex-row lg:gap-x-[33px]">
+          <div className="flex flex-col mx-auto items-center gap-y-5 lg:flex-row lg:gap-x-[33px]" >
             {pricing.map((card, currentIndex) => {
-              const { title, price, list, buttonIcon, buttonText, delay } =
+              const { title, price, list, buttonIcon, buttonText, delay} =
                 card;
               return (
                 <div
                   onClick={() => setIndex(currentIndex)}
                   className="bg-white w-full max-w-[368px] min-h-[668px] h-full cursor-pointer relative"
+                  data-aos="fade-up" data-aos-delay={delay}
                   key={"card_" + currentIndex}
                 >
                   <div
