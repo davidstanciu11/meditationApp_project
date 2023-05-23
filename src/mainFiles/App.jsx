@@ -8,7 +8,7 @@ import Features from "../components/Features";
 import Hero from "../components/Hero";
 // import Navbar from "../components/Navbar";
 // import NavbarMob from "../components/NavbarMob";
-// import Newsletter from "../components/Newsletter";
+import Newsletter from "../components/Newsletter";
 import Pricing from "../components/Pricing";
 
 function App() {
@@ -22,6 +22,7 @@ function App() {
         <Features/>
         <Courses/>
         <Pricing/>
+        <Newsletter/>
         <div className="h-[2000px]"></div>
       </div>
     </>
