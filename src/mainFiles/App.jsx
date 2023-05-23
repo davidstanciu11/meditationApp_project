@@ -1,6 +1,6 @@
 import Cards from "../components/Cards";
 // import Contact from "../components/Contact";
-// import Courses from "../components/Courses";
+import Courses from "../components/Courses";
 import Facts from "../components/Facts";
 import Features from "../components/Features";
 // import Footer from "../components/Footer";
@@ -20,6 +20,7 @@ function App() {
         <Cards />
         <Facts/>
         <Features/>
+        <Courses/>
         <div className="h-[2000px]"></div>
       </div>
     </>
